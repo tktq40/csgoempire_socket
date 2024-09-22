@@ -2,6 +2,8 @@ const iov2 = require('iov2');
 const csgoempire = require('@api/csgoempire')
 
 const empire_api_key = "";
+//Your api key
+
 
 init_ws();
 
@@ -27,7 +29,7 @@ async function init_ws() {
         secure: true,
         rejectUnauthorized: false,
         reconnect: false,
-        //we will use recursive call to reconnect, if you want to auto-reconnect please write with your own logic + delete init_ws in line 81
+        //if you want to auto-reconnect please write with your own logic + delete line 81 where init_ws function called
         extraHeaders: {
             'User-agent': `API Bot`
         },

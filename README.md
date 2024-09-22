@@ -14,7 +14,7 @@ This guide will help you set up the CSGOEMPIRE socket connection in Node.js.
     git clone git@github.com:tktq40/csgoempire_socket.git
     ```
 
-2. **Install Dependencies (only when you don't clone the respository):**
+2. **Install Dependencies:**
 
     Copy the provided `package.json` into your project directory if you not going to clone it. Then, run the following command to install all required packages:
 

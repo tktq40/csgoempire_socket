@@ -29,7 +29,7 @@ async function init_ws() {
         secure: true,
         rejectUnauthorized: false,
         reconnect: false,
-        //if you want to auto-reconnect please write with your own logic + delete line 81 where init_ws function called
+        //if you want to auto-reconnect please write with your own logic + delete init_ws function call inside disconnect event.
         extraHeaders: {
             'User-agent': `API Bot`
         },
